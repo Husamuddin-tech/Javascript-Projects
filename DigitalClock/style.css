@@ -1,0 +1,41 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', monospace;
+}
+
+body {
+  background: #0f2027; /* gradient-like color */
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.clock-container {
+  background: #1c1c1c;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.3);
+}
+
+.clock-container h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #00ffe7;
+}
+
+.clock {
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 15px 30px;
+  background-color: #222;
+  border: 2px solid #00ffe7;
+  border-radius: 8px;
+  box-shadow: inset 0 0 10px rgba(0, 255, 255, 0.3);
+}
